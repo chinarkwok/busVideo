@@ -29,7 +29,7 @@ $(document).ready(function () {
     var tmpIndex=busName.indexOf("摄像头列表");
     document.title=zNodes[0].name.substr(0,tmpIndex);
 
-    var zNodes = [{"iconSkin":"tree_camera_active","name":"通道_5","pId":"-1","id":"5","dvrselfId":"20390969"},{"iconSkin":"tree_camera_active","name":"通道_1","pId":"-1","id":"1","dvrselfId":"20390969"},{"iconSkin":"tree_camera_active","name":"通道_2","pId":"-1","id":"2","dvrselfId":"20390969"},{"iconSkin":"tree_camera_active","name":"通道_3","pId":"-1","id":"3","dvrselfId":"20390969"},{"iconSkin":"tree_camera_active","name":"通道_4","pId":"-1","id":"4","dvrselfId":"20390969"},{"iconSkin":"tree_dir_active","name":"摄像头列表","pId":"-9999","id":"-1","open":"true"}];
+    //var zNodes = [{"iconSkin":"tree_camera_active","name":"通道_5","pId":"-1","id":"5","dvrselfId":"20390969"},{"iconSkin":"tree_camera_active","name":"通道_1","pId":"-1","id":"1","dvrselfId":"20390969"},{"iconSkin":"tree_camera_active","name":"通道_2","pId":"-1","id":"2","dvrselfId":"20390969"},{"iconSkin":"tree_camera_active","name":"通道_3","pId":"-1","id":"3","dvrselfId":"20390969"},{"iconSkin":"tree_camera_active","name":"通道_4","pId":"-1","id":"4","dvrselfId":"20390969"},{"iconSkin":"tree_dir_active","name":"摄像头列表","pId":"-9999","id":"-1","open":"true"}];
     //var zNodes=[{"iconSkin":"tree_dir_active","id":"-1","name":"鲁B09522F摄像头列表","open":"true","pId":"-9999"},{"dvrselfId":"99940530","iconSkin":"tree_dir_active","id":"0","name":"车前","pId":"-1"}]
     var setting = {
         data: {
